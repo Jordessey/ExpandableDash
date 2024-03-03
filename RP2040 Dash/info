@@ -1,0 +1,934 @@
+{
+  "path": "Offline/RP2040 Dash",
+  "foldername": "RP2040 Dash",
+  "name": "RP2040 Dash",
+  "title": "RP2040 Dash",
+  "uuid": "dd97df8242e39a605fa1ec45fe8c6ecf",
+  "created_at": "2023-06-17 16:46:55",
+  "updated_at": "2024-02-29 21:53:13",
+  "documents": [
+    {
+      "uuid": "e27be41c9d94c94d2dc42254e44fc1e4",
+      "title": "Controller",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1707455397,
+      "createTime": 1686977117,
+      "histories": [],
+      "created_at": "2023-06-17 16:45:17",
+      "updated_at": "2024-02-09 18:09:57",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          14,
+          "C0402_NEW",
+          "C3,C5,C6,C7,C8,C9,C10,C12,C13,C14,C21,C22,C23,C24",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "CL05B104KO5NNNC",
+            "Manufacturer": "SAMSUNG",
+            "Supplier Part": "C1525",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "CL05B104KO5NNNC",
+            "puuid": "176eead66a5c45e698aceb33a5f6fe97",
+            "uuid": "ca94110f4544769d36adda4b0515e409"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "C0402",
+          "C4,C11",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "SAMSUNG",
+            "Manufacturer Part": "CL05A105KA5NQNC",
+            "Supplier Part": "C52923",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "CL05A105KA5NQNC",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "c6551ffd8df4e1d9edf79a5278696201"
+          }
+        ],
+        [
+          "27pF",
+          2,
+          "C0402",
+          "C15,C16",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "FH",
+            "Manufacturer Part": "0402CG270J500NTN",
+            "Supplier Part": "C1557",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402CG270J500NTN",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "0bb2c0e053647d3fe5a1b61b7a95f045"
+          }
+        ],
+        [
+          "10uF",
+          4,
+          "C0805",
+          "C17,C18,C19,C20",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "CL21A106KAYNNNE",
+            "Manufacturer": "SAMSUNG",
+            "Supplier Part": "C15850",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "CL21A106KAYNNNE",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "7a0c79967d0e7ae293044fb82790899a"
+          }
+        ],
+        [
+          "PZ254V-11-08P",
+          3,
+          "HDR-TH_8P-P2.54-V-M",
+          "H1,H2,H3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492407",
+            "Manufacturer": "XFCN(兴飞)",
+            "Manufacturer Part": "PZ254V-11-08P",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PZ254V-11-08P",
+            "puuid": "7142253ac24c42e1954a7f7d1d66b136",
+            "uuid": "964e7179911342c38d624c48ec2fc462"
+          }
+        ],
+        [
+          "210S-1*3P L=11.6MMGold-plated black",
+          1,
+          "HDR-TH_3P-P2.54-V-M-1",
+          "H5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "Ckmtw(灿科盟)",
+            "Manufacturer Part": "B-2100S03P-A110",
+            "Supplier Part": "C124376",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "210S-1*3P L=11.6MMGold-plated black",
+            "puuid": "7e70b923819e4f3bb9fdeaf4abdca9d3",
+            "uuid": "f0792841ae47498989f7436aaf9b8534"
+          }
+        ],
+        [
+          "0603White light_C2290",
+          1,
+          "LED0603-R-RD_WHITE",
+          "LED1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "KENTO",
+            "Manufacturer Part": "0603White light",
+            "Supplier Part": "C2290",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0603White light_C2290",
+            "puuid": "af16510a196f45a3b2eecfb1ed8360c1",
+            "uuid": "353ff04a8071d3e6740fa5273965e20c"
+          }
+        ],
+        [
+          "20Ω",
+          2,
+          "R0402",
+          "R1,R2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Manufacturer Part": "0402WGF200JTCE",
+            "Supplier Part": "C25089",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "0402WGF200JTCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "6e92a7b1a6f759b50bc02a930f738c30"
+          }
+        ],
+        [
+          "10kΩ",
+          2,
+          "R0402",
+          "R3,R8",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "0402WGF1002TCE",
+            "Supplier Part": "C25744",
+            "Resistance (Ohms)": "10K",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402WGF1002TCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "6c2bedbae9fbd358441dfb9948555b9c"
+          }
+        ],
+        [
+          "1kΩ",
+          3,
+          "R0402",
+          "R4,R5,R11",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "0402WGF1001TCE",
+            "Supplier Part": "C11702",
+            "Resistance (Ohms)": "1K",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402WGF1001TCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "0162c93b05c079a4f063ffb73f50c063"
+          }
+        ],
+        [
+          "2.2kΩ",
+          2,
+          "R0402",
+          "R9,R10",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "0402WGF2201TCE",
+            "Supplier Part": "C25879",
+            "Resistance (Ohms)": "2.2K",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402WGF2201TCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "e1909bb11b766150f03944808024c235"
+          }
+        ],
+        [
+          "5.1kΩ",
+          2,
+          "R0402",
+          "R12,R13",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "0402WGF5101TCE",
+            "Supplier Part": "C25905",
+            "Resistance (Ohms)": "5.1K",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402WGF5101TCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "9a1dab2264ee9c0dd27f0d885a0978e6"
+          }
+        ],
+        [
+          "TS-1187A-B-A-B",
+          2,
+          "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2",
+          "SW1,SW2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C318884",
+            "Manufacturer": "XKB Enterprise",
+            "Manufacturer Part": "TS-1187A-B-A-B",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "TS-1187A-B-A-B",
+            "puuid": "c35bad1cd8654778a92d4d3124fa62da",
+            "uuid": "584d673271dd43738fb1ad2dd2772015"
+          }
+        ],
+        [
+          "RP2040",
+          1,
+          "LQFN-56_L7.0-W7.0-P0.4-EP",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2040",
+            "Manufacturer": "Raspberry Pi(树莓派)",
+            "Manufacturer Part": "RP2040",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "RP2040",
+            "puuid": "39e1b05b30bd4c64a6c9a1b67d9eb207",
+            "uuid": "c2754a5dac404cb1b757213b56759c67"
+          }
+        ],
+        [
+          "W25Q128JVSIQTR",
+          1,
+          "SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL",
+          "U3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "WINBOND",
+            "Manufacturer Part": "W25Q128JVSIQTR",
+            "Supplier Part": "C97521",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "W25Q128JVSIQTR",
+            "puuid": "fdf2396de7694c3e8177c1c94fe2bbcd",
+            "uuid": "dc7e982d084b4ca28d73f2e365d5a8e8"
+          }
+        ],
+        [
+          "XH-3PA",
+          4,
+          "CONN-TH_3P-P2.50_ZHOURI_XH-3PA",
+          "U4,U5,U6,U7",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5258884",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "XH-3PA",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20221111/941C48A64A881023E1ECD9BB647261A0.pdf",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH-3PA",
+            "puuid": "f982991f9a124a709fb2adc8dc38bbd3",
+            "uuid": "d2a0cc155f6a4c879849b096cfa739c4"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U11",
+          {
+            "sourceId": "dwIGgezVh",
+            "timeStamp": "1476261164",
+            "Supplier": "LCSC",
+            "Manufacturer": "AMS",
+            "Manufacturer Part": "AMS1117-3.3",
+            "Supplier Part": "C6186",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "AMS1117-3.3",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "588dac9f81df8f83843513972963b454"
+          }
+        ],
+        [
+          "USB-310D-B-SU",
+          1,
+          "USB-C-SMD_USB-310D-B-SU",
+          "USB1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C309349",
+            "Manufacturer": "HOOYA",
+            "Manufacturer Part": "USB-310D-B-SU",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "USB-310D-B-SU",
+            "puuid": "5c4db466beb8420eb864a4f6f8f97de5",
+            "uuid": "92b033851fb246c3a384444101eee5a5"
+          }
+        ],
+        [
+          "12MHz",
+          1,
+          "OSC-SMD_4P-L3.2-W2.5-BL",
+          "X1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "YXC",
+            "Manufacturer Part": "X322512MSB4SI",
+            "Supplier Part": "C9002",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "X322512MSB4SI",
+            "puuid": "fde525906f004b04890fe3f9fe02cca8",
+            "uuid": "2e83b68c877909257b07a0358bddc1b8"
+          }
+        ],
+        [
+          "XH-4A_C2904944",
+          15,
+          "CONN-TH_4P-P2.50-XH2.54-4P",
+          "CN1,CN11,CN12,CN13,CN14,CN15,CN16,CN17,CN18,CN19,CN20,CN21,CN22,CN23,CN24",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2904944",
+            "Manufacturer": "DEALON(德艺隆)",
+            "Manufacturer Part": "XH-4A",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "XH-4A_C2904944",
+            "puuid": "5bb3f311460a456db69c8ebd122bf0ba",
+            "uuid": "1400b123fcca4705bc5cbc628e094655"
+          }
+        ],
+        [
+          "HC-XH-5A-G",
+          4,
+          "CONN-TH_5P-P2.50_HC-XH-5A-G",
+          "CN2,CN3,CN4,CN5",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5341204",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Manufacturer Part": "HC-XH-5A-G",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20230105/4FFD2EFD3DA44AA828171A44400F3EDE.pdf",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HC-XH-5A-G",
+            "puuid": "73776f6078c7435fbc0db5be8d8922d9",
+            "uuid": "7f8effcc3f8e49829d7f19e6fff2aa05"
+          }
+        ],
+        [
+          "XH-D-9A",
+          1,
+          "CONN-TH_9P-P2.50_DEALON_XH-D-9A",
+          "CN7",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5160918",
+            "Manufacturer": "DEALON(德艺隆)",
+            "Manufacturer Part": "XH-D-9A",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20220914/1FC04F129D3D4BCAFA0D19FF290F9EB4.pdf",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH-D-9A",
+            "puuid": "3a71219caffd42918f14b46fe604234d",
+            "uuid": "54f65560bddc4ee287102217a7999761"
+          }
+        ],
+        [
+          "10kΩ",
+          15,
+          "R0402",
+          "R6,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R29,R30",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "0402WGF1002TCE",
+            "Supplier Part": "C25744",
+            "Resistance (Ohms)": "10K",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402WGF1002TCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "6c2bedbae9fbd358441dfb9948555b9c"
+          }
+        ],
+        [
+          "PCF8574T/TR",
+          3,
+          "SO-16_L10.3-W7.5-P1.27-LS10.3-BL",
+          "U30,U31,U43",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2987288",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Manufacturer Part": "PCF8574T/TR",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20190611/C398075_1925312D8618E19C6137781D5B71A3CA.pdf",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PCF8574T/TR",
+            "puuid": "cf9375a9f7194081bba652b429620ee8",
+            "uuid": "23eae63a0fe6451a8bb900341079abca"
+          }
+        ]
+      ],
+      "components": {
+        "c2754a5dac404cb1b757213b56759c67": 1,
+        "ca94110f4544769d36adda4b0515e409": 14,
+        "c6551ffd8df4e1d9edf79a5278696201": 2,
+        "dc7e982d084b4ca28d73f2e365d5a8e8": 1,
+        "6c2bedbae9fbd358441dfb9948555b9c": 2,
+        "0162c93b05c079a4f063ffb73f50c063": 3,
+        "584d673271dd43738fb1ad2dd2772015": 2,
+        "2e83b68c877909257b07a0358bddc1b8": 1,
+        "0bb2c0e053647d3fe5a1b61b7a95f045": 2,
+        "e1909bb11b766150f03944808024c235": 2,
+        "353ff04a8071d3e6740fa5273965e20c": 1,
+        "588dac9f81df8f83843513972963b454": 1,
+        "7a0c79967d0e7ae293044fb82790899a": 4,
+        "92b033851fb246c3a384444101eee5a5": 1,
+        "9a1dab2264ee9c0dd27f0d885a0978e6": 2,
+        "d2a0cc155f6a4c879849b096cfa739c4": 4,
+        "964e7179911342c38d624c48ec2fc462": 3,
+        "f0792841ae47498989f7436aaf9b8534": 1,
+        "6e92a7b1a6f759b50bc02a930f738c30": 2
+      }
+    },
+    {
+      "uuid": "1eafa0be418d4002fc1170bc5c42d3a1",
+      "title": "i2c Buttons",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1707454060,
+      "createTime": 1686977117,
+      "histories": [],
+      "created_at": "2023-06-17 16:45:17",
+      "updated_at": "2024-02-09 17:47:40",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          14,
+          "C0402_NEW",
+          "C3,C5,C6,C7,C8,C9,C10,C12,C13,C14,C21,C22,C23,C24",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "CL05B104KO5NNNC",
+            "Manufacturer": "SAMSUNG",
+            "Supplier Part": "C1525",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "CL05B104KO5NNNC",
+            "puuid": "176eead66a5c45e698aceb33a5f6fe97",
+            "uuid": "ca94110f4544769d36adda4b0515e409"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "C0402",
+          "C4,C11",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "SAMSUNG",
+            "Manufacturer Part": "CL05A105KA5NQNC",
+            "Supplier Part": "C52923",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "CL05A105KA5NQNC",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "c6551ffd8df4e1d9edf79a5278696201"
+          }
+        ],
+        [
+          "27pF",
+          2,
+          "C0402",
+          "C15,C16",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "FH",
+            "Manufacturer Part": "0402CG270J500NTN",
+            "Supplier Part": "C1557",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402CG270J500NTN",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "0bb2c0e053647d3fe5a1b61b7a95f045"
+          }
+        ],
+        [
+          "10uF",
+          4,
+          "C0805",
+          "C17,C18,C19,C20",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "CL21A106KAYNNNE",
+            "Manufacturer": "SAMSUNG",
+            "Supplier Part": "C15850",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "CL21A106KAYNNNE",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "7a0c79967d0e7ae293044fb82790899a"
+          }
+        ],
+        [
+          "PZ254V-11-08P",
+          3,
+          "HDR-TH_8P-P2.54-V-M",
+          "H1,H2,H3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492407",
+            "Manufacturer": "XFCN(兴飞)",
+            "Manufacturer Part": "PZ254V-11-08P",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PZ254V-11-08P",
+            "puuid": "7142253ac24c42e1954a7f7d1d66b136",
+            "uuid": "964e7179911342c38d624c48ec2fc462"
+          }
+        ],
+        [
+          "210S-1*3P L=11.6MMGold-plated black",
+          1,
+          "HDR-TH_3P-P2.54-V-M-1",
+          "H5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "Ckmtw(灿科盟)",
+            "Manufacturer Part": "B-2100S03P-A110",
+            "Supplier Part": "C124376",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "210S-1*3P L=11.6MMGold-plated black",
+            "puuid": "7e70b923819e4f3bb9fdeaf4abdca9d3",
+            "uuid": "f0792841ae47498989f7436aaf9b8534"
+          }
+        ],
+        [
+          "0603White light_C2290",
+          1,
+          "LED0603-R-RD_WHITE",
+          "LED1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "KENTO",
+            "Manufacturer Part": "0603White light",
+            "Supplier Part": "C2290",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0603White light_C2290",
+            "puuid": "af16510a196f45a3b2eecfb1ed8360c1",
+            "uuid": "353ff04a8071d3e6740fa5273965e20c"
+          }
+        ],
+        [
+          "27.4Ω",
+          2,
+          "R0402",
+          "R1,R2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "0402WGF274JTCE",
+            "Resistance (Ohms)": "27.4",
+            "Supplier Part": "C31439",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "0402WGF274JTCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "0f19f14414ceb517541281c802c26bd0"
+          }
+        ],
+        [
+          "10kΩ",
+          2,
+          "R0402",
+          "R3,R8",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "0402WGF1002TCE",
+            "Supplier Part": "C25744",
+            "Resistance (Ohms)": "10K",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402WGF1002TCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "6c2bedbae9fbd358441dfb9948555b9c"
+          }
+        ],
+        [
+          "1kΩ",
+          3,
+          "R0402",
+          "R4,R5,R11",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "0402WGF1001TCE",
+            "Supplier Part": "C11702",
+            "Resistance (Ohms)": "1K",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402WGF1001TCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "0162c93b05c079a4f063ffb73f50c063"
+          }
+        ],
+        [
+          "2.2kΩ",
+          2,
+          "R0402",
+          "R9,R10",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "0402WGF2201TCE",
+            "Supplier Part": "C25879",
+            "Resistance (Ohms)": "2.2K",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402WGF2201TCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "e1909bb11b766150f03944808024c235"
+          }
+        ],
+        [
+          "5.1kΩ",
+          2,
+          "R0402",
+          "R12,R13",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "0402WGF5101TCE",
+            "Supplier Part": "C25905",
+            "Resistance (Ohms)": "5.1K",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402WGF5101TCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "9a1dab2264ee9c0dd27f0d885a0978e6"
+          }
+        ],
+        [
+          "TS-1187A-B-A-B",
+          2,
+          "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2",
+          "SW1,SW2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C318884",
+            "Manufacturer": "XKB Enterprise",
+            "Manufacturer Part": "TS-1187A-B-A-B",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "TS-1187A-B-A-B",
+            "puuid": "c35bad1cd8654778a92d4d3124fa62da",
+            "uuid": "584d673271dd43738fb1ad2dd2772015"
+          }
+        ],
+        [
+          "RP2040",
+          1,
+          "LQFN-56_L7.0-W7.0-P0.4-EP",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2040",
+            "Manufacturer": "Raspberry Pi(树莓派)",
+            "Manufacturer Part": "RP2040",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "RP2040",
+            "puuid": "39e1b05b30bd4c64a6c9a1b67d9eb207",
+            "uuid": "c2754a5dac404cb1b757213b56759c67"
+          }
+        ],
+        [
+          "W25Q128JVSIQTR",
+          1,
+          "SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL",
+          "U3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "WINBOND",
+            "Manufacturer Part": "W25Q128JVSIQTR",
+            "Supplier Part": "C97521",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "W25Q128JVSIQTR",
+            "puuid": "fdf2396de7694c3e8177c1c94fe2bbcd",
+            "uuid": "dc7e982d084b4ca28d73f2e365d5a8e8"
+          }
+        ],
+        [
+          "XH-3PA",
+          4,
+          "CONN-TH_3P-P2.50_ZHOURI_XH-3PA",
+          "U4,U5,U6,U7",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5258884",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "XH-3PA",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20221111/941C48A64A881023E1ECD9BB647261A0.pdf",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH-3PA",
+            "puuid": "f982991f9a124a709fb2adc8dc38bbd3",
+            "uuid": "d2a0cc155f6a4c879849b096cfa739c4"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U11",
+          {
+            "sourceId": "dwIGgezVh",
+            "timeStamp": "1476261164",
+            "Supplier": "LCSC",
+            "Manufacturer": "AMS",
+            "Manufacturer Part": "AMS1117-3.3",
+            "Supplier Part": "C6186",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "AMS1117-3.3",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "588dac9f81df8f83843513972963b454"
+          }
+        ],
+        [
+          "USB-310D-B-SU",
+          1,
+          "USB-C-SMD_USB-310D-B-SU",
+          "USB1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C309349",
+            "Manufacturer": "HOOYA",
+            "Manufacturer Part": "USB-310D-B-SU",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "USB-310D-B-SU",
+            "puuid": "5c4db466beb8420eb864a4f6f8f97de5",
+            "uuid": "92b033851fb246c3a384444101eee5a5"
+          }
+        ],
+        [
+          "12MHz",
+          1,
+          "OSC-SMD_4P-L3.2-W2.5-BL",
+          "X1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "YXC",
+            "Manufacturer Part": "X322512MSB4SI",
+            "Supplier Part": "C9002",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "X322512MSB4SI",
+            "puuid": "fde525906f004b04890fe3f9fe02cca8",
+            "uuid": "2e83b68c877909257b07a0358bddc1b8"
+          }
+        ],
+        [
+          "XH-4A_C2904944",
+          15,
+          "CONN-TH_4P-P2.50-XH2.54-4P",
+          "CN1,CN11,CN12,CN13,CN14,CN15,CN16,CN17,CN18,CN19,CN20,CN21,CN22,CN23,CN24",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2904944",
+            "Manufacturer": "DEALON(德艺隆)",
+            "Manufacturer Part": "XH-4A",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "XH-4A_C2904944",
+            "puuid": "5bb3f311460a456db69c8ebd122bf0ba",
+            "uuid": "1400b123fcca4705bc5cbc628e094655"
+          }
+        ],
+        [
+          "HC-XH-5A-G",
+          4,
+          "CONN-TH_5P-P2.50_HC-XH-5A-G",
+          "CN2,CN3,CN4,CN5",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5341204",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Manufacturer Part": "HC-XH-5A-G",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20230105/4FFD2EFD3DA44AA828171A44400F3EDE.pdf",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HC-XH-5A-G",
+            "puuid": "73776f6078c7435fbc0db5be8d8922d9",
+            "uuid": "7f8effcc3f8e49829d7f19e6fff2aa05"
+          }
+        ],
+        [
+          "XH-D-9A",
+          1,
+          "CONN-TH_9P-P2.50_DEALON_XH-D-9A",
+          "CN7",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5160918",
+            "Manufacturer": "DEALON(德艺隆)",
+            "Manufacturer Part": "XH-D-9A",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20220914/1FC04F129D3D4BCAFA0D19FF290F9EB4.pdf",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH-D-9A",
+            "puuid": "3a71219caffd42918f14b46fe604234d",
+            "uuid": "54f65560bddc4ee287102217a7999761"
+          }
+        ],
+        [
+          "10kΩ",
+          15,
+          "R0402",
+          "R6,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R29,R30",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "0402WGF1002TCE",
+            "Supplier Part": "C25744",
+            "Resistance (Ohms)": "10K",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0402WGF1002TCE",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "6c2bedbae9fbd358441dfb9948555b9c"
+          }
+        ],
+        [
+          "PCF8574T/TR",
+          3,
+          "SO-16_L10.3-W7.5-P1.27-LS10.3-BL",
+          "U30,U31,U43",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2987288",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Manufacturer Part": "PCF8574T/TR",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20190611/C398075_1925312D8618E19C6137781D5B71A3CA.pdf",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PCF8574T/TR",
+            "puuid": "cf9375a9f7194081bba652b429620ee8",
+            "uuid": "23eae63a0fe6451a8bb900341079abca"
+          }
+        ]
+      ],
+      "components": {
+        "6c2bedbae9fbd358441dfb9948555b9c": 15,
+        "23eae63a0fe6451a8bb900341079abca": 3,
+        "1400b123fcca4705bc5cbc628e094655": 15,
+        "7f8effcc3f8e49829d7f19e6fff2aa05": 4,
+        "54f65560bddc4ee287102217a7999761": 1
+      }
+    },
+    {
+      "uuid": "d33d75d34e4b71accb7ab018a13c3134",
+      "title": "PCB_RP2040",
+      "filename": "PCB_RP2040.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1709196793,
+      "createTime": 1686977089,
+      "histories": [],
+      "created_at": "2023-06-17 16:44:49",
+      "updated_at": "2024-02-29 21:53:13",
+      "components": {
+        "fafd024f554e426eb74cf4a204aa88b0": 26,
+        "7e70b923819e4f3bb9fdeaf4abdca9d3": 1,
+        "7142253ac24c42e1954a7f7d1d66b136": 3,
+        "5bb3f311460a456db69c8ebd122bf0ba": 15,
+        "73776f6078c7435fbc0db5be8d8922d9": 4,
+        "3a71219caffd42918f14b46fe604234d": 1,
+        "176eead66a5c45e698aceb33a5f6fe97": 14,
+        "f982991f9a124a709fb2adc8dc38bbd3": 4,
+        "cf9375a9f7194081bba652b429620ee8": 3,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 4,
+        "02ae667aca734971be8a5f58143dd564": 1,
+        "5c4db466beb8420eb864a4f6f8f97de5": 1,
+        "af16510a196f45a3b2eecfb1ed8360c1": 1,
+        "c35bad1cd8654778a92d4d3124fa62da": 2,
+        "0821ed6ea50c44f4909e4be7610e4198": 4,
+        "39e1b05b30bd4c64a6c9a1b67d9eb207": 1,
+        "fdf2396de7694c3e8177c1c94fe2bbcd": 1,
+        "fde525906f004b04890fe3f9fe02cca8": 1
+      }
+    }
+  ],
+  "content": "",
+  "stick": "",
+  "sort": [
+    "e27be41c9d94c94d2dc42254e44fc1e4",
+    "1eafa0be418d4002fc1170bc5c42d3a1"
+  ],
+  "schfilename": "RP2040_Dash.json",
+  "schfilemtime": 1707455397338
+}
